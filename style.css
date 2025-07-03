@@ -1,0 +1,21 @@
+#Fname{
+    background-color: rgb(0, 251, 255);
+}
+#Lname{
+    background-color: rgb(90, 205, 70);
+}
+#E-mail{
+    background-color: rgb(255, 0, 34);
+}
+#ph-No{
+    background-color: rgb(252, 10, 252);
+}
+#Add{
+    background-color: rgb(255, 255, 0);
+}
+
+.ClassForm{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: purple;
+}

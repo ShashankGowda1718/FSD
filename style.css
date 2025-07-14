@@ -1,21 +1,28 @@
-#Fname{
-    background-color: rgb(0, 251, 255);
+h2{
+    text-decoration: underline;
+    text-align: center;
+    color:rgb(0, 238, 255);
 }
-#Lname{
-    background-color: rgb(90, 205, 70);
+#fullname{
+    font-size: large;
 }
-#E-mail{
-    background-color: rgb(255, 0, 34);
+#phno{
+    font-size: large;
 }
-#ph-No{
-    background-color: rgb(252, 10, 252);
+#email{
+    font-size: large;
 }
-#Add{
-    background-color: rgb(255, 255, 0);
+#button{
+    
+    font-size: x-large;
+    background-color: rgb(255, 0, 0);
+    
+    
+}
+body{
+    font-size: xx-large;
+    color: aliceblue;
+    background-image:url("shiva.jpg");
+    background-size: cover;
 }
 
-.ClassForm{
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    background-color: purple;
-}

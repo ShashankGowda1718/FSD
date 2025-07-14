@@ -3,49 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>online Form</title>
+    <title>event registration form</title>
 </head>
 <body>
+     <label for="name">FullName</label>
+      <input type="text" id="name" name="name" required />
+      <br></br>
 
-    <h1>Online Form</h1>
-    <link rel="stylesheet" href="style.css">
-    <form action="/action_page.php">
-        
-        <!-- Name Field -->
-        <label> First Name:</label>
-        <input type="text" id="Fname"  placeholder="First Name" class="ClassForm" value="" >
-        <br><br>
-        
-        <!-- last name -->
-        <label>Last Name:</label>
-        <input type="text" id="Lname" placeholder="Last Name" class="ClassForm" value="" >
-        <br></br>
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" />
+      <br></br>
 
-        <!-- Email Field -->
-        <label>Email:</label>
-        <input type="email" id="E-mail" placeholder="Email" class="ClassForm" value="" >
-        <br><br>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+      <br></br>
 
-        <!-- phone number -->
-        <label>Phone number</label>
-        <input type="text" id="ph-No" placeholder="phone number" class="ClassForm" value="" >
-        <br></br>
+      <label for="foodperformance">food performance</label>
+      <select id="foodperformance" name="foodperformance" required>
+        <option value="">Select food</option>
+        <option value="Veg">Veg</option>
+        <option value="Non-veg">Non-veg</option>
+        <option value="vegan">vegan</option>
+        <option value="keto">keto</option>
+      </select>
+      <br></br>
 
-        <!-- Address -->
-        <label>Address:</label>
-        <input type="text" id="Add" placeholder="Address" class="ClassForm" value="" >
-        <br><br>
+      <label for="tshirt">t-shirt</label>
+      <select id="tshirt" name="tshirt" required>
+        <option value="">Select size</option>
+        <option value="X">X</option>
+        <option value="L">L</option>
+        <option value="S">S</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+      </select>
+      <br></br>
 
-        <!-- Password -->
-        <label>Password:</label>
-        <input type="password" id="pwd" placeholder="password" value="">
-        <br></br>
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+      <br></br>
 
-        <!-- Submit Button -->
-        <button type="submit"> Submit</button>
-
-        <p>If you click the "submit" button, the form data will be sent to a page called "action_page.php".</p>
-
-    </form>
+      <button type="submit">Register</button>
 </body>
 </html>
